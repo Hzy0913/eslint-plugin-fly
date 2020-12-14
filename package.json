@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-fly",
+  "description": "ESlint Plugin for the Hzy0913",
+  "version": "0.0.1",
+  "author": "Hzy0913",
+  "bugs": {
+    "url": "https://github.com/Hzy0913/eslint-plugin-fly/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.1",
+    "standard": "*"
+  },
+  "homepage": "https://github.com/Hzy0913/eslint-plugin-fly#readme",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hzy0913/eslint-plugin-fly.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.19.0"
+  }
+}
