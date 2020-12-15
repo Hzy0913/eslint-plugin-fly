@@ -15,7 +15,7 @@ module.exports = {
   create: function(context) {
     return {
       'Program JSXIdentifier': (node) => {
-        if (node.name === 'img') {
+        if (node.name === 'img' && node.parent.type === 'JSXOpeningElement') {
           context.report({
             node,
             message: '你需要使用统一的 <Image /> 组件来替代img标签'
