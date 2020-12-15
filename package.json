@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-fly",
   "description": "ESlint Plugin for the Hzy0913",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Hzy0913",
   "bugs": {
     "url": "https://github.com/Hzy0913/eslint-plugin-fly/issues"
