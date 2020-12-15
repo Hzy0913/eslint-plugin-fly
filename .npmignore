@@ -8,3 +8,6 @@ package-lock.json
 .gitignore
 .npmignore
 .eslintrc
+.babelrc.js
+.editorconfig
+.eslintignore

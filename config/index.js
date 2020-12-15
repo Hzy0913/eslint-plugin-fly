@@ -14,7 +14,6 @@ module.exports = {
     devtool: 'cheap-module-eval-source-map',
     poll: false,
     assetsSubDirectory: 'static',
-    cacheBusting: true,
     cssSourceMap: true,
     define: undefined
   },

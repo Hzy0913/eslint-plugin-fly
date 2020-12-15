@@ -1,6 +1,5 @@
 dist/*
 build/*
 config/*
-src/assets/iconfont.js
 node_modules/*
 webpack**

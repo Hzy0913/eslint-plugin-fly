@@ -1,6 +1,10 @@
 {
-  "extends": "airbnb",
-  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
   "env": {
     "es6": true,
     "browser": true
@@ -9,6 +13,6 @@
     "fly"
   ],
   "rules": {
-    "fly/no-use-img": "error",
+    "fly/no-use-img": "error"
   }
 }
